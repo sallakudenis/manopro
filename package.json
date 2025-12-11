@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write --ignore-path .gitignore ."
   },
-  "dependencies": {
+  "dependencies": {"@supabase/supabase-js": "^2.26.9",}
     "@hookform/resolvers": "^5.0.1",
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.49.4",
