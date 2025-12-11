@@ -1,3 +1,4 @@
-Need to install the following packages:
-supabase@2.26.9
-Ok to proceed? (y) 
+// Importa i tipi dal tuo progetto Supabase
+import { Database } from "./supabase-types";
+
+export type DB = Database;
